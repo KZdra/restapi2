@@ -4,4 +4,6 @@
 
     app.route('/')
     .get(myJson.index);
+    app.route('/tampil')
+    .get(myJson.tampil);
  }
